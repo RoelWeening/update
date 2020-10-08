@@ -1,6 +1,5 @@
 - name: upgradeDebian
   hosts: debiangrp
-  sudo: yes
   tasks:
     - name: Update packages list
       apt: update_cache=yes
