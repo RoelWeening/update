@@ -1,5 +1,3 @@
----
-
 - hosts: debiangrp
   sudo: yes
   tasks:
